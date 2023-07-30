@@ -1,0 +1,47 @@
+body{
+    /* New color */
+     background-image:linear-gradient(135deg,rgba(34,193,195,1) 0%,rgba(253,187,45,1) 100%); 
+}
+
+.border{
+    box-shadow:2px 4px 9px black;
+    transition: 1s;
+}
+
+.border:hover{
+    box-shadow:2px 4px 9px rgb(195, 34, 123);
+}
+
+/*.text{
+    text-shadow: 1px 1px #FF0000;
+    transition: 1s;
+}
+
+.text:hover{
+    text-shadow: 2px 1px rgb(0, 255, 229);
+}*/
+
+.hover-underline-animation {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
