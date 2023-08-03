@@ -5,7 +5,4 @@ React-based web app for individuals, especially students, to enhance their prepa
 
 ## Video Demonstration
 
-https://github.com/suyashkolhe25/CS-Tracker/assets/82031106/3956f511-95a4-4276-9162-ae2ce1f4f640
-
-
-
+https://github.com/suyashkolhe25/CS-Tracker/assets/82031106/9ce9a59d-c954-4726-82f5-a4b9aafccf56
